@@ -1,2 +1,2 @@
 # primeiro-projeto-curso-python
-O primeiro projeto realizado em um cursod de Python na Udemy
+O primeiro projeto realizado em um curso de Python na Udemy
