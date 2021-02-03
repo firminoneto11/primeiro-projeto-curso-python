@@ -1,6 +1,7 @@
 
 from resetar_tela import clear_console, clear_pycharm
 from easy_stuff import easy_questions
+from medium_stuff import medium_questions
 
 # Esta é a tela inicial da aplicação
 
@@ -23,6 +24,7 @@ while True:
     if escolha == '4':
         input("\nAté a próxima! Pressione enter para finalizar o programa: ")
         break
+
     elif escolha == '1':
         clear_pycharm()
         clear_console()
@@ -31,6 +33,11 @@ while True:
         easy_questions()
 
     elif escolha == '2':
-        pass
+        clear_pycharm()
+        clear_console()
+        print("Você escolheu a dificuldade Médio!")
+        input("Pressione enter para continuar: ")
+        medium_questions()
+
     elif escolha == '3':
         pass
