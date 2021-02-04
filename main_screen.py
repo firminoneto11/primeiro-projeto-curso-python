@@ -2,6 +2,7 @@
 from resetar_tela import clear_console, clear_pycharm
 from easy_stuff import easy_questions
 from medium_stuff import medium_questions
+from database_de_pontos import score_atual
 
 # Esta é a tela inicial da aplicação
 
@@ -28,16 +29,21 @@ while True:
     elif escolha == '1':
         clear_pycharm()
         clear_console()
-        print("Você escolheu a dificuldade Fácil!")
+        print("\nVocê escolheu a dificuldade Fácil! Cada questão certa adiciona 1 ponto ao seu score e cada questão"
+              " errada subtrai 1 ponto do seu score!")
+        print(f"\nSeu score atual é de {score_atual()} ponto(s)!\n")
         input("Pressione enter para continuar: ")
         easy_questions()
 
     elif escolha == '2':
         clear_pycharm()
         clear_console()
-        print("Você escolheu a dificuldade Médio!")
+        print("\nVocê escolheu a dificuldade Médio! Cada questão certa adiciona 2 pontos ao seu score e cada questão"
+              " errada subtrai 2 pontos do seu score!")
+        print(f"\nSeu score atual é de {score_atual()} ponto(s)!\n")
         input("Pressione enter para continuar: ")
         medium_questions()
 
+    # Falta agora implementar as questões difíceis
     elif escolha == '3':
         pass

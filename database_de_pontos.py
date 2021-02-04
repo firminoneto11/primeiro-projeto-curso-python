@@ -71,3 +71,22 @@ def reduzir_ponto(dificuldade):
         file.write(str(novo_total))
 
     return novo_total
+
+
+def score_atual():
+    """
+    Esta função apenas retorna o score atual do usuário. Caso o arquivo de texto contendo o score não exista, o mesmo é
+    criado, porém este é inicializado em 0.
+    :return: Retorna o score atual do usuário.
+    """
+    documento_dos_pontos = ".\\pontos.txt"
+
+    # Fazendo uma verificação se o mesmo existe, se não, ele será criado
+    if exists(documento_dos_pontos) is False:
+        with open(documento_dos_pontos, mode='w', encoding='utf-8', newline=None) as file:
+            file.write("0")
+        return 0
+    else:
+        with open(documento_dos_pontos, mode='r', encoding='utf-8', newline=None) as file:
+            total = int(file.read())
+        return total

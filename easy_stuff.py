@@ -45,6 +45,7 @@ def easy_questions():
                     print(f"Você agora tem {atribuir_ponto(mode)} ponto(s)!")
                 else:
                     print("\nErrado :( | Você perdeu 1 ponto!")
+                    print(f"A resposta certa era: {resposta}")
                     print(f"Você agora tem {reduzir_ponto(mode)} ponto(s)!")
         # Lógica que é realizada se o código escolher questões de subtração
         elif modo_escolhido == 'l_sub':
@@ -65,6 +66,7 @@ def easy_questions():
                     print(f"Você agora tem {atribuir_ponto(mode)} ponto(s)!")
                 else:
                     print("\nErrado :( | Você perdeu 1 ponto!")
+                    print(f"A resposta certa era: {resposta}")
                     print(f"Você agora tem {reduzir_ponto(mode)} ponto(s)!")
         # Lógica que é realizada se o código escolher questões de multiplicação
         else:
@@ -85,10 +87,11 @@ def easy_questions():
                     print(f"Você agora tem {atribuir_ponto(mode)} ponto(s)!")
                 else:
                     print("\nErrado :( | Você perdeu 1 ponto!")
+                    print(f"A resposta certa era: {resposta}")
                     print(f"Você agora tem {reduzir_ponto(mode)} ponto(s)!")
 
         # Fazendo uma verificação se o usuário gostaria de continuar jogando ou finalizar o programa
-        next_option = input("Pressione 'ENTER' para continuar jogando ou (1) para voltar ao menu inicial: ")
+        next_option = input("\nPressione 'ENTER' para continuar jogando ou (1) para voltar ao menu inicial: ")
         while next_option != '' and next_option != '1':
             print('\nEscolha inválida!')
             next_option = input("Pressione 'enter' para continuar jogando ou (1) para voltar ao menu inicial: ")
