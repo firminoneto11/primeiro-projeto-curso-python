@@ -16,8 +16,8 @@ def parsing_string(expr):
 def medium_questions():
     """
     Esta função realiza as perguntas matemáticas de adição, subtração e multiplicação de dificuldade média e verifica
-    se as mesmas estão certas ou erradas. Se certas, adiciona 1 ponto ao score do usuário, caso contrário, remove 1
-    ponto do score do usuário.
+    se as mesmas estão certas ou erradas. Se certas, adiciona 2 pontos ao score do usuário, caso contrário, remove 2
+    pontos do score do usuário.
     :return: None
     """
     while True:
