@@ -25,7 +25,11 @@ def hard_questions():
 
         # Implementar mais expressões matemáticas e big update no readme
         hard = [
-            "((20 ** 2) + (25 / 5)) / 5"
+            "((20 ** 2) + (25 / 5)) / 5",
+            "(((9 / 3) * 5) + (30 / 15)) / 17",
+            "((5 ** 3) / 5) + ((5 ** 2) * 2) / 5",
+            "((((9 / 3) * 5) + (30 / 15)) / 17) / (((2 ** 2) + 4) / 8)",
+            "((10 ** 2) ** (1 / 2)) / ((1 ** 10) + ((50 - 30) - 19))"
         ]
 
         # Escolhendo uma das expressões da lista de expressões matemáticas
