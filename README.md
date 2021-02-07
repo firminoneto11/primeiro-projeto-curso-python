@@ -2,6 +2,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/firminoneto11/primeiro-projeto-curso-python)
 ![GitHub language count](https://img.shields.io/github/languages/count/firminoneto11/primeiro-projeto-curso-python)
 ![GitHub top language](https://img.shields.io/github/languages/top/firminoneto11/primeiro-projeto-curso-python)
+![GitHub](https://img.shields.io/github/license/firminoneto11/primeiro-projeto-curso-python)
 
 # primeiro-projeto-curso-python
 ## O primeiro projeto realizado em um curso de Python na Udemy
