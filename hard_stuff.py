@@ -22,8 +22,6 @@ def hard_questions():
         # Lista que contém perguntas envolvendo expressões matemáticas contendo as 4 operações. Diferentemente das ante
         # riores, somente há uma lista que engloba todas as operações, tornando esse modo escolhido, realmente 'dificil'
         # para o usuário
-
-        # Implementar mais expressões matemáticas e big update no readme
         hard = [
             "((20 ** 2) + (25 / 5)) / 5",
             "(((9 / 3) * 5) + (30 / 15)) / 17",
